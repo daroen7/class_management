@@ -51,6 +51,7 @@ router.post('/cars', (req, res) => {
         year,
     }
     cars.push(newCar)
+    
     res.status(201).json(newCar)
 })
 
